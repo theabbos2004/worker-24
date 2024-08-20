@@ -1,6 +1,6 @@
 import React, { memo } from "react";
 import { useNavigate } from "react-router-dom";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 import { FirstWorkerRegister, ForthWorkerRegister, SecondWorkerRegister, ThirdWorkerRegister } from "../../components/shared";
 
 function WorkerRegisterPage() {
