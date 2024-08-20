@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color-white:#ffffff;
+    --color-yellow: rgba(252, 224, 0, 1);
+    --color-gray:rgba(246, 246, 246, 1);
+    --color-web-icon:rgba(121, 123, 23, 1);
+    --color-gray-1:rgba(40, 40, 40, 0.8);
+}

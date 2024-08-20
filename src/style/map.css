@@ -1,0 +1,33 @@
+[class*="ground-pane"]{
+    filter: grayscale(1);
+}
+.ymaps-2-1-79-float-button{
+    background-color: var(--color-white) !important;
+    height: 2rem !important;
+    width: 2rem !important;
+}
+.ymaps-2-1-79-zoom{
+    height: 0.8rem !important;
+}
+.ymaps-2-1-79-zoom__plus{
+    border-top-left-radius: 50% !important;
+    border-top-right-radius: 50% !important;
+}
+.ymaps-2-1-79-zoom__minus{
+      border-bottom-left-radius: 50% !important;
+      border-bottom-right-radius: 50% !important;
+  }
+.ymaps-2-1-79-_hidden-text{
+    border-radius: 50% !important;
+    margin-right: -0.2rem !important;
+}
+  /* Style the hover effect */
+.ymaps-2-1-79-float-button:hover {
+    background-color: #e4e4e4 !important;
+    color: var(--color-white) !important;
+  }
+.ymaps-2-1-79-float-button-icon{
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%,-50%) !important;
+}
