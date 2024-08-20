@@ -3,10 +3,9 @@ import { Route, Routes } from 'react-router-dom';
 import Authcontext from './contexts/AuthContext/Authcontext';
 import {SignInPage, SearchWorkerPage, SignUpPage, RegisterPage, WorkerRegisterPage } from './pages/index';
 import { AppLayout } from './layouts';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { RRwindowSize } from './store/Reducer/siteRegister';
 function App() {
-  // let getWindowWidth=useSelector(store=>console.log(store.siteRegister))
   let dispatch=useDispatch()
   useEffect(()=>{
     let getWindowWidth=()=>{
