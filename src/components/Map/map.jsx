@@ -31,7 +31,6 @@ const Map = () => {
                     zoom: 14
                 });
                 const mapHeight = map.container.getSize()[1];
-                const mapWidth = map.container.getSize()[0];
                 map?.controls?.remove("zoomControl")
                 map?.controls?.remove("searchControl")
                 map?.controls?.remove("trafficControl")
