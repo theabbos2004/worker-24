@@ -1,0 +1,24 @@
+.scrollList{
+    overflow-y: scroll;
+    list-style-type: none;
+    padding: 0;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+input[type="radio"]{
+    display: none;
+}
+.searchListTarget{
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    background-color: var(--color-gray) !important
+}
+@media only screen and (min-width: 768px) {
+    .searchListTarget{
+        top: 0 !important;
+        transform: translate(0,0) !important;
+        left:100% !important;
+    }
+}
