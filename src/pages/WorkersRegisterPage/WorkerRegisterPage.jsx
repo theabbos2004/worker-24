@@ -1,11 +1,9 @@
-import React, { memo, useEffect } from "react";
+import React, { memo } from "react";
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { FirstWorkerRegister, ForthWorkerRegister, SecondWorkerRegister, ThirdWorkerRegister } from "../../components/shared";
-import { createWorker } from "../../store/Reducer/workersRegister";
 
 function WorkerRegisterPage() {
-  let dispatch=useDispatch()
   let navigate = useNavigate();
   let {level}=useSelector(store=>store.workerRegister)
   return (

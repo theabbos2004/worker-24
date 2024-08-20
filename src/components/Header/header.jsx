@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { FlagUzIcon } from '../../assets/icon'
 import { Link, useNavigate } from 'react-router-dom'
-import styles from "./header.module.css"
 export default function Header() {
     let navigate=useNavigate()
     let [menu]=useState([
